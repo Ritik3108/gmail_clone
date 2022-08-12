@@ -22,12 +22,12 @@ class _ReplyState extends State<Reply> {
   bool pressed = false;
   File file;
   var _mails = [
-    'bhumi@gmail.com',
+    'Raj@gmail.com',
     'pandeyaman821@gmail.com',
     'shivam.pandey10@gmail.com',
     'prince@gmail.com',
-    'bhumi@tcs.com',
-    'bhumi@diagoe.com'
+    'Raj@tcs.com',
+    'Raj@diagoe.com'
   ];
   bool isClicked = false;
   String result = "";
@@ -139,7 +139,7 @@ class _ReplyState extends State<Reply> {
                 //Expanded(child: drop()),
                 Expanded(
                     child: TextFormField(
-                  initialValue: 'bhumi@gmail.com',
+                  initialValue: 'Raj@gmail.com',
                   cursorHeight: 18,
                   decoration: InputDecoration(
                     border: InputBorder.none,
@@ -344,7 +344,7 @@ class _ReplyState extends State<Reply> {
     if (index == 1) {}
   }
 
-  String value = "bhumi@gmail.com";
+  String value = "Raj@gmail.com";
   Widget drop() {
     return DropdownButtonHideUnderline(
       child: new DropdownButton(

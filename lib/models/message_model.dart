@@ -18,14 +18,14 @@ class Message {
   });
 }
 
-final User bhumi = User(id: 0, name: 'Bhumi', imageUrl: Colors.red);
+final User Raj = User(id: 0, name: 'Raj', imageUrl: Colors.red);
 final User linkedln = User(id: 1, name: 'Linkedln', imageUrl: Colors.orange);
 final User rkf = User(id: 2, name: 'RKF Films', imageUrl: Colors.grey);
 final User medium =
     User(id: 3, name: 'Medium Daily', imageUrl: Colors.pink[900]);
 final User amazon = User(id: 4, name: 'Amazon.in', imageUrl: Colors.yellow);
 final User aman = User(id: 5, name: 'Aman Pandey', imageUrl: Colors.red);
-final User sunny = User(id: 6, name: 'Sunny Rathore', imageUrl: Colors.teal);
+final User Dino = User(id: 6, name: 'Dino Morea', imageUrl: Colors.teal);
 final User broCode = User(id: 7, name: 'BroCode', imageUrl: Colors.blueGrey);
 final User digitalocean =
     User(id: 8, name: 'Digital Ocean', imageUrl: Colors.deepPurpleAccent);
@@ -61,7 +61,7 @@ List<Message> mails = [
     sender: medium,
     time: '9:05 PM',
     text:
-        'Stories for Bhumi: How I got an engineering internships in...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Stories for Raj: How I got an engineering internships in...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     subject: 'Simple SQFlite databases examples in flutter',
     isStarred: false,
     unread: true,
@@ -76,7 +76,7 @@ List<Message> mails = [
     unread: true,
   ),
   Message(
-    sender: bhumi,
+    sender: Raj,
     time: 'Feb 12',
     text:
         'Check the modified PDF attached & send feedback...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -139,7 +139,7 @@ List<Message> mails = [
     unread: true,
   ),
   Message(
-    sender: sunny,
+    sender: Dino,
     time: 'Feb 10',
     text:
         'Get your Dev Badge at Hacktoberfest ,just by login into the Dev Website...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',

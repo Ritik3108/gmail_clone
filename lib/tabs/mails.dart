@@ -342,20 +342,20 @@ class TextBox extends StatelessWidget {
 
 class Datasearch extends SearchDelegate<String> {
   final names = [
-    'bhumi',
+    'Raj',
     'sidd',
     'rkf',
-    'sunny',
+    'Dino',
     'linkedln',
     'banglore',
-    'sunny0698@gmail.com',
+    'Dino0698@gmail.com',
     'pandey.aman@tcs.com',
     'rkf@gmail.com',
     'goelsidd821@gmail.com',
-    'sunny.rathore@tcs.com',
+    'Dino.morea@bollywood.com',
   ];
   final recentSearches = [
-    'bhumi@tcs.com',
+    'Raj@tcs.com',
     'sidd@gmail.com',
     'dev@gmail.com',
     'prince@gmail.com'

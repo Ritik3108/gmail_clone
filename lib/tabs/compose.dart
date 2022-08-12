@@ -13,12 +13,12 @@ class _ComposeState extends State<Compose> {
   PlatformFile file;
   bool entered = false;
   var _mails = [
-    'bhumi@gmail.com',
+    'Raj@gmail.com',
     'pandeyaman821@gmail.com',
     'shivam.pandey10@gmail.com',
     'prince@gmail.com',
-    'bhumi@tcs.com',
-    'bhumi@diagoe.com'
+    'Raj@tcs.com',
+    'Raj@diagoe.com'
   ];
   bool isClicked = false;
   @override
@@ -283,7 +283,7 @@ class _ComposeState extends State<Compose> {
     );
   }
 
-  String value = "bhumi@gmail.com";
+  String value = "Raj@gmail.com";
   Widget drop() {
     return DropdownButtonHideUnderline(
       child: new DropdownButton(
